@@ -12,4 +12,9 @@ public class Goal : MonoBehaviour {
 	void Update () {
 	
 	}
+
+	void OnTriggerEnter (Collider c)
+	{
+		Debug.Log ("Goooooal!");
+	}
 }
